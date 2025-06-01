@@ -40,10 +40,6 @@ The main smart contract, `CreditScore.sol`, includes:
 4. **Smart contract tracks repayments**, updating state and credit score.
 5. **Verified users can view profile**, repayment history, and lending activity via a web dashboard.
 
-## 📷 Demo
-
-> [Insert a link or GIF here showing a demo of the UI and interactions]
-
 ## 📦 Setup Instructions
 
 1. **Clone the repository**
