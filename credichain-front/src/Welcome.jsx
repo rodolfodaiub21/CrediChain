@@ -6,7 +6,7 @@ import {Link} from "react-router-dom"
 
 export default function Welcome() {
   const [currentSlide, setCurrentSlide] = useState(0);
-
+  localStorage.clear()
   const sections = [
     {
       title: "How It Works",

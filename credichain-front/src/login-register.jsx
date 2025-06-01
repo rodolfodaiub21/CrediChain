@@ -10,9 +10,11 @@ export default function AuthMenu() {
         </div>
 
         <div className="space-y-4">
+          <Link to= "/LoginForm">
           <button className="w-full bg-green-400 text-black py-2 rounded hover:bg-green-300">
             Login
           </button>
+          </Link>
           <Link to="/registerform">
           <button className="w-full border border-gray-600 py-2 rounded hover:bg-gray-800 mt-4">
             Register
