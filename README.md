@@ -48,34 +48,23 @@ The main smart contract, `CreditScore.sol`, includes:
    cd CrediChain
 Install dependencies
 
-bash
-Copy
-Edit
 npm install
 Compile the smart contracts
 
-bash
-Copy
-Edit
+
 npx hardhat compile
 Run a local blockchain
 
-bash
-Copy
-Edit
+
 npx hardhat node
 Deploy the contract
 In a separate terminal:
 
-bash
-Copy
-Edit
+
 npx hardhat run scripts/deploy.js --network localhost
 Start the frontend
 
-bash
-Copy
-Edit
+
 npm start
 📚 Future Improvements
 Integrate real time-based repayment (e.g., monthly)
